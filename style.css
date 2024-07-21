@@ -1,12 +1,15 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: rgb(164, 170, 170);
+    font-size: 16px;
+    font-weight: 32px;
+    background-color: rgb(159, 168, 168);
+    height: 1000px;
 }
+
 
 nav {
     display: flex;
@@ -22,11 +25,22 @@ nav ul {
     list-style: none;
     width: 20%;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 nav ul li a {
     color: black;
     text-decoration: none;
+}
+
+
+.logo {
+    width: 45px;
+    padding-right: 10px;
+}
+
+nav img {
+    font-size: 40px;
 }
 
 .a {
@@ -46,70 +60,64 @@ nav ul li a {
 }
 
 
-.container-satu {
-    background-color: aliceblue;
-    width: 1200px;
-    display: flex;
-    margin: 40px auto;
+.container {
+    width: 800px;
+    background-color: rgb(245, 238, 238);
+    margin: 20px auto;
+    padding: 30px;
 }
 
-.kolom-utama h2 {
-    margin-top: 30px;
+.container h2 {
+    margin-top: 5px;
     padding: 20px;
 }
 
-.kolom-utama p {
+.container p {
     margin-top: -15px;
     padding: 20px;
     margin-bottom: 20px;
     line-height: 25px;
 }
 
-
-.kolom-utama button {
+button {
     background-color: black;
-    padding: 2px 30px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 30px;
     border-radius: 20px;
-    margin-left: 20px;
 }
 
-.kolom-utama button a {
+button a {
     color: white;
     text-decoration: none;
-    font-size: 17px;
-}
-
-.kolom-utama .cv {
-    display: inline;
 }
 
 .icon {
-    padding: 50px 30px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
     font-size: 30px;
+    margin-bottom: 20px;
+
 }
 
 .icon a {
-    padding-left: 15px;
     color: black;
-    text-decoration: none;
+    padding: 0 5px;
 }
 
-.kolom-kedua {
-    margin: 10px;
-}
-
-.kolom-kedua img {
-    box-shadow: 0px 0px 30px grey;
-    margin-bottom: 5px;
-    width: 500px;
-}
-
-.card-body {
+.card {
+    width: 70%;
+    margin: auto;
     text-align: center;
 }
 
+.card img {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(175, 175, 175);
+}
 
-.logo {
-    width: 30px;
-    padding-right: 10px;
+.sub {
+    margin-top: -18px;
 }
